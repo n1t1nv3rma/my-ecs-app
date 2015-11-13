@@ -1,6 +1,7 @@
 {
-              "serviceName": "ecs-simple-service-elb",
-              "taskDefinition": "my-task-def-nv",
+              "cluster": "my-ow-ecs-cluster",
+              "serviceName": "ecs-sample-service-elb",
+              "taskDefinition": "my-sample-console",
               "loadBalancers": [
                   {
                       "loadBalancerName": "my-ow-ecs-elb",
