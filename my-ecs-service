@@ -1,0 +1,13 @@
+{
+              "serviceName": "ecs-simple-service-elb",
+              "taskDefinition": "my-task-def-nv",
+              "loadBalancers": [
+                  {
+                      "loadBalancerName": "my-ow-ecs-elb",
+                      "containerName": "simple-app",
+                      "containerPort": 80
+                  }
+              ],
+              "desiredCount": 1,
+              "role": "ecsServiceRole"
+}
