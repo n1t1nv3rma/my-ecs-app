@@ -1,0 +1,22 @@
+{
+              "cluster": "my-ow-ecs-cluster",
+              "serviceName": "ecs-sample-service-elb",
+<<<<<<< HEAD:services/my-ecs-service-1
+              "taskDefinition": "my-sample-console:5",
+=======
+              "taskDefinition": "my-sample-console:4",
+>>>>>>> 98b103ba9c8c78a2990b7cb6d8e3eb732c2a5d15:services/my-ecs-service
+              "loadBalancers": [
+                  {
+                      "loadBalancerName": "my-ow-ecs-elb",
+                      "containerName": "simple-app",
+                      "containerPort": 80
+                  }
+              ],
+<<<<<<< HEAD:services/my-ecs-service-1
+              "desiredCount": 2
+=======
+              "desiredCount": 2,
+              "role": "ecsServiceRole"
+>>>>>>> 98b103ba9c8c78a2990b7cb6d8e3eb732c2a5d15:services/my-ecs-service
+}
