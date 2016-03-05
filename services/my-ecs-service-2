@@ -2,5 +2,9 @@
    "cluster": "my-ow-ecs-cluster",
    "serviceName": "ecs-sample-service-non-elb",
    "taskDefinition": "my-2nd-task-def:6",
-   "desiredCount": 1
+   "desiredCount": 1,
+   "deploymentConfiguration": {
+        "maximumPercent": 200,
+        "minimumHealthyPercent": 100
+    }
 }

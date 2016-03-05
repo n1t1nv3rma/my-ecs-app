@@ -9,5 +9,9 @@
          "containerPort": 80
        }
      ],
-   "desiredCount": 2
+   "desiredCount": 2,
+   "deploymentConfiguration": {
+        "maximumPercent": 200,
+        "minimumHealthyPercent": 50
+    }
 }
