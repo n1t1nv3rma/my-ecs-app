@@ -2,6 +2,7 @@
    "cluster": "my-ow-ecs-cluster",
    "serviceName": "ecs-sample-service-elb",
    "taskDefinition": "my-sample-console:5",
+   "role":"arn:aws:iam::460707966535:role/aws-opsworks-ec2-role-with-ecs",
    "loadBalancers": [
        {
          "loadBalancerName": "my-ow-ecs-elb",
